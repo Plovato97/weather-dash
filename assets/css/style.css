@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.weather-title {
+    font-size: 45px;
+}
+
 .main-header {
     background-color: deepskyblue;
 }
