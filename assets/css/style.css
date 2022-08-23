@@ -11,3 +11,8 @@
 .main-header {
     background-color: deepskyblue;
 }
+
+.forecast {
+    background-color: royalblue;
+    color: white;
+}
