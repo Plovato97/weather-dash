@@ -15,4 +15,32 @@
 .forecast {
     background-color: royalblue;
     color: white;
+    font-size: bold;
+}
+.forecast-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.uvi-Low {
+    background-color: green;
+}
+
+.uvi-moderate {
+    background-color: rgb(255, 174, 24);
+}
+
+.uvi-high {
+    background-color: red;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 4rem;
+}
+
+.p-element {
+    border: solid;
+    font-size: 20px;
 }

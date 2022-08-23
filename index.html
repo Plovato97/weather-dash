@@ -13,34 +13,29 @@
         <h1> Weather dashboard </h1>
     </header>
     <div class="card flex-row">
-        <h3 class="card-header text-uppercase d-flex flex-wrap custom-range">Search for a City - </h3>
+      <div>
+          <div class="card">
+            <div class="card-body" id="search-history"></div></div>
+          </div>
         <form id="user-form" class="card-body">
+          <h3 class="card-header text-uppercase">Search for a City - </h3>
           <input name="city" id="city" type="text" placeholder="Enter a City" />
           <button type="submit" class="btn-primary btn-sm" id="search-btn">Search</button>
           <button type="submit" class="btn-danger btn-sm" id="clear-btn">Clear</button>
         </form>
       </div>
 
-      <div id="cityDate">
+      <div id="cityDate" class="d-flex justify-content-center border-dark">
             <h3 id="city-name" class="city-name align-middle"></h3>
             <span id="current-img"></span>
-            <p id="temperature" class="p-element"></p>
-            <p id="humidity" class="p-element"></p>
-            <p id="wind-speed" class="p-element"></p>
-            <p id="UV-index" class="p-element"></p>
+            <p id="temperature" class="p-element  ml-2"></p>
+            <p id="humidity" class="p-element  ml-2"></p>
+            <p id="wind-speed" class="p-element  ml-2"></p>
+            <p id="UV-index" class=""></p>
           </div>
           <h3 id="forecast-heading"></h3>
-          <div id="forecast" class="d-flex flex-row justify-content-between forecast">
-            
+          <div id="forecast" class="d-flex flex-row justify-content-between forecast">  
         </div>
-         </div>
-        </div>
-      </div>
-      </div>
-      <div>
-        <span>
-        </span>
-      </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/weather.js"></script>
 </body>
